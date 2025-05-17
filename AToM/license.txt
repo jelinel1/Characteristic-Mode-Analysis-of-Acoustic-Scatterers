@@ -1,0 +1,102 @@
+LICENSE AGREEMENT
+FREE LICENCE OF ATOM SOFTWARE FOR END-USERS
+
+
+Èeské vysoké uèení technické v Praze – Czech Technical University in Prague, Faculty of Electrical Engineering (hereinafter "CTU") is willing to license the software identified below to LICENSEE only under condition that you accept all of the terms contained in this license agreement (Agreement). By downloading, accessing, saving or using the AToM software or any part of it LICENSEE agrees with this Agreement. If LICENSEE do not agree to any term hereof, quit downloading, accessing, saving or using the AToM software, erase or otherwise dispose of all AToM software components already downloaded or saved and note that LICENSEE does not have any right to use the AToM software.
+
+
+1. DEFINITIONS
+The undermentioned terms (written with capital first letters) have the following meaning:
+
+1.1. “CTU” shall mean Èeské vysoké uèení technické v Praze – Czech Technical University in Prague, Faculty of Electrical Engineering, Zikova 4, 16636 Prague, Czech Republic. CTU has developed and own the copyright in software called AToM software.
+
+1.2. “LICENSE” shall mean the license granted to you by this Agreement;
+
+1.3. “AToM software” shall mean the software named Antenna Toolbox for MATLAB, whose function is fast and efficient computation of characteristic modes, and antenna analysis and synthesis. AToM software was developed by M. Capek and colleagues, referred to as the "Author(s)" and as described in “AToM/About/About AToM” menu. The AToM software shall include all its content and materials, whether in electronic or hard form, provided in connection with the code. The AToM software shall also mean any upgraded, updated or modified version as well as all copies of the code in any form; and
+
+1.4. “LICENSEE” shall mean you personally or an entity (e.g. a corporation) on whose behalf you act as agent, executive, employee or else. Please note that if you are not legally entitled to act on behalf of the entity you claim to act for (and if your acts cannot be attributed to that entity in accordance with the law, either), you personally are bound by this Agreement.
+
+
+2. LICENCE
+2.1. Subject to the terms and conditions of this Agreement a non-exclusive, non-transferable License to use the Licensed Software is made available free of charge for the LICENSEE. The LICENSEE can use the Software only for academic research projects. This explicitly excludes projects which are contracted to the LICENSEE by any third party for a fee, or projects that are done in collaboration with a third party that is funding the research in whole or in part in exchange for commercial rights on the results and/or possible delay in publication of any relevant results to the academic community.
+
+2.2. This license does not entitle LICENSEE to receive from CTU any copies of the Licensed Software including but not limited to Licensed Software on disks, tapes or CD's, hard-copy documentation, technical support, telephone assistance, or enhancements or updates to the Licensed Software.
+
+2.3. The user and any research assistants, co-workers or other workers who may use the Software agree to not grant licenses on any software that includes the Licensed Software, alone or integrated into other software, to third parties. Modification of the Licensed Software code is prohibited without the prior written consent of CTU, the only exceptions are m-codes explicitly enumerated in the Software Documentation.
+
+2.4. This licence limits the number of solvable unknowns to 350 and number of triangles to 500. These limitations are directly implemented in the free licence of the AToM software, and further explained in the Documentation.
+
+
+3. OWNERSHIP
+3.1. Except as expressly licensed in this Agreement, CTU shall retain title to the Licensed Software, and any upgrades and modifications created by CTU.
+
+
+4. CONSIDERATION
+4.1. In consideration for the license rights granted by CTU, LICENSEE will obtain this free of AToM software free of charge.
+
+
+5. COPIES
+5.1. LICENSEE shall have the right to download the Licensed Software and/or to make up to 3 copies of the Licensed Software for either internal use or for back-up purposes under this Agreement.
+
+
+6. SUPPORT
+6.1. CTU shall have no obligation to offer support services to LICENSEE, and nothing contained herein shall be interpreted as to require CTU to provide maintenance, installation services, debugging, consultation, or end-user support of any kind.
+
+
+7. SOFTWARE PROTECTION
+7.1. LICENSEE acknowledges that the Licensed Software is proprietary to CTU. The software code of the Licensed Software shall be treated as trade secrets and confidential information, and LICENSEE agrees to use their best efforts to hold the same in confidence. LICENSEE's obligation for confidentiality shall not extend to any information which is, or becomes, generally available to the public, is already known to, or subsequently disclosed by third parties to, LICENSEE and is at its free disposal, or is independently developed by LICENSEE or its affiliates without the use of the confidential information disclosed by CTU, or is required by law or legal process.
+
+7.2. Except as otherwise expressly permitted in this Agreement, LICENSEE may not (i) modify or create any derivative works of the Licensed Software or documentation to the Licensed Software, including customization, translation or localization; (ii) decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code for the Product; (iii) redistribute, encumber, sell, rent, lease, sublicense, or otherwise transfer rights to the Licensed Software; or (iv) remove or alter any trademark, logo, copyright or other proprietary notices, legends, symbols or labels in the Product.
+
+
+8. REPRESENTATIONS OF CTU TO LICENSEE
+8.1. CTU represents to LICENSEE that (i) CTU has the right to grant the License on the Licensed Software and to enter into this agreement and (ii) CTU undertakes to use best efforts to cooperate with and assist LICENSEE, at LICENSEE's expense, in defending itself against any action based on the alleged infringement of any third party patent, copyright or trade secret rights resulting from or relating to the use or licensing of the Licensed Software by LICENSEE.
+
+
+9. INDEMNITY AND DISCLAIMER OF WARRANTIES
+9.1. Except as expressly set forth in this agreement, CTU makes no representations or warranties, expressed or implied. 
+
+9.2. The free licence of the Licensed Software is provided free of charge, and, therefore, on an "as is" basis, without warranty of any kind, explicitly or implicitly, including without limitation the warranties that it is free of defects, virus free, able to operate on an uninterrupted basis, merchantable, fit for a particular purpose or non-interfering. The entire risk as to the quality and performance of the Licensed Software is borne by LICENSEE.
+
+9.3. By way of example, but not limitation, CTU makes no representations or warranties of merchantability or fitness for the Licensed Software and any particular application or that the use of the Licensed Software or will not infringe any patents, copyrights or trademarks or other rights of third parties. The entire risk as to the quality and performance of the product is borne by LICENSEE. CTU shall not be liable for any liability or damages with respect to any claim by LICENSEE or any third party on account of, or arising from the license or use of the Software.
+
+9.4. Should the Licensed Software prove defective in any respect, LICENSEE and not CTU or its affiliates should assume the entire cost of any service and repair. This disclaimer of warranty constitutes an essential part of this agreement. No use of the Licensed Software is authorized hereunder except under this disclaimer.
+
+9.5. In no event will CTU or its affiliates be liable for any indirect, special, incidental or consequential damages arising out of the use of or inability to use the product, including, without limitation, damages for lost profits, loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses, even if advised of the possibility thereof, and regardless of the legal or equitable theory (contract, tort or otherwise) upon which the claim is based.
+
+9.6. LICENSEE will be liable for all damages without limitation, which are caused by abuse of the Licensed Software service on CTU’s server.
+
+9.7. LICENSEE has no right to claim any indemnification based on LICENSEE's use of Licensed Software.
+
+
+10. PROMOTIONAL ADVERTISING & REFERENCES
+10.1. LICENSEE may not use the name "AToM" in its promotional advertising, product literature, and other similar promotional materials to be disseminated to the public or any portion thereof. LICENSEE agrees not to identify CTU in any promotional advertising or other promotional materials to be disseminated to the public, or any portion thereof without CTU’s prior written consent. For the avoidance of doubt, scientific literature is not defined as advertising and promotional materials.
+
+10.2. LICENSEE agrees to cite the use of the Licensed Software on all related scientific publications, posters, grant applications, institutional reports or brochures. The recommended ways how to cite the Licenced Software can be found at “antennatoolbox.com/order”. CTU shall not use LICENSEE’s name in publicity or advertising involving this Agreement or otherwise without LICENSEE's prior written consent which may be withheld at LICENSEE's sole discretion.
+
+
+
+
+11. TERM
+11.1. This Agreement and the license rights granted herein shall become effective as of the date this Agreement is executed by both parties and shall be perpetual unless terminated in accordance with this Section.
+
+11.2. CTU may terminate this Agreement at any time.
+
+11.3. Either party may terminate this Agreement at any time effective upon the other party's breach of any agreement, covenant, or representation made in this Agreement, such breach remaining uncorrected sixty (60) days after written notice thereof.
+
+11.4. LICENSEE shall have the right, at any time, to terminate this Agreement without cause by written notice to CTU specifying the date of termination.
+
+
+12. GOVERNING LAW
+12.1. This Agreement shall be governed by the law of the Czech Republic. The venue for disputes arising from or in connection with this Agreement shall be that of CTU’s seat.
+
+
+13. GENERAL AND FINAL PROVISIONS
+13.1. The parties agree that this Agreement is the complete and exclusive agreement among the parties and supersedes all proposals and prior agreements whether written or oral, and all other communications among the parties relating to the subject matter of this Agreement. This Agreement cannot be modified except in writing and signed by both parties. Failure by either party at any time to enforce any of the provisions of this Agreement shall not constitute a waiver by such party of such provision nor in any way affect the validity of this Agreement.
+
+13.2. The invalidity of singular provisions does not affect the validity of the entire understanding. The parties are obligated, however, to replace the invalid provisions by a regulation, which comes closest to the economic intent of the invalid provision. The same shall apply mutatis mutandis in case of a gap.
+
+13.3. IN WITNESS WHEREOF, the LICENSEE hereto has caused this Agreement to be duly executed on the date of access to the Licensed Software service and by accepting the license conditions by pressing the Acceptance button.
+
+
+I have read this License Agreement and I agree to uphold the terms and conditions of this license.

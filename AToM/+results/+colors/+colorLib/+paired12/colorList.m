@@ -1,0 +1,3 @@
+% keep given order of colors - for specified order (n) gives correct color name
+% if n is not specified, displays whole list
+% could be written better...
