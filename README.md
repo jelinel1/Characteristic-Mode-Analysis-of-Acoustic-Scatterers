@@ -9,4 +9,5 @@ The code uses some functions from ATOM [[1]](#references). Parts of the free ver
 # References
 
 [1] Lukas Jelinek, Kurt Schab, Viktor Hruska, Miloslav Capek, Mats Gustafsson, "Characteristic Mode Analysis of Acoustic Scatterers," Journal of Sound and Vibration, to be published
+
 [2] http://www.antennatoolbox.com/
