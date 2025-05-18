@@ -1,1 +1,0 @@
-% function [rootPos, iIter] = newtonMethodRootFinding()

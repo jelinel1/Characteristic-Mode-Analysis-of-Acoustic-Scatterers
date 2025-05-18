@@ -1,5 +1,10 @@
 % This script evaluates characteristic modes of an ideally stiff Helmoltz
-% resonator. The theory is described in DOI: XXXXX
+% resonator. The theory is described in: 
+% 
+% Lukas Jelinek, Kurt Schab, Viktor Hruska, Miloslav Capek, Mats Gustafsson, 
+% "Characteristic Mode Analysis of Acoustic Scatterers," 
+% Journal of Sound and Vibration, to be published
+% 
 % Each frequency point costs approximately 50 seconds on a regular laptop. 
 % The entire frequency sweep will take approx. 1.75 hours. If you do not 
 % want to wait and just want to plot the results, go to line 106, and load the 
@@ -52,7 +57,7 @@ fList = [linspace(50,119,30),linspace(120,129,15),...
 Nka = size(fList,2);
 
 k0List = 2*pi*fList/c0; % wavenumber
-kaList = k0List*mesh.normDistanceA; % electric size
+kaList = k0List*mesh.normDistanceA; % wave size
 
 % maximum order of spherical waves
 iota = 2;
@@ -62,7 +67,7 @@ lmax   = ceil(max(kaList) + 3 + iota*max(kaList)^(1/3));
 verbosity = 1;
 quadOrder = 5;
 
-%% Solve MoM
+%% Fill and solve the matrix system
 
 waitBar = [];
 
@@ -97,6 +102,7 @@ for ika = 1:Nka
     DT = diag(DT);
     [~,I] = sort(abs(DT),'descend');
 
+    % store sorted modes
     fTcell{1,ika} = fCM(:,I);
     tTcell{1,ika} = DT(I,1);
 
@@ -108,7 +114,8 @@ end
 
 % load('precalculatedCMdata.mat')
 
-%% tracking of characteristic modes to provide smooth evolution of eigenvalues
+%% track characteristic modes to provide smooth evolution of eigenvalues
+% with frequency
 
 nModes = 20; % number of tracked modes
 
@@ -141,7 +148,7 @@ for ika = 2:Nka
 
 end
 
-%% plot modals significances
+%% plot modal significances
 
 figure
 for iMode = 1:nModes
@@ -199,6 +206,7 @@ view(74,81)
 
 %% evaluate scattered field
 
+% dimensions
 Rcyl = 0.165;
 Lcyl = 0.7*Rcyl;
 Lopen = 0.5*Rcyl;
@@ -225,7 +233,6 @@ pScattField = N*p;
 pScattField = reshape(pScattField,[Nzgrid,Nxgrid]);
 
 % avoid inner parts of the material
-
 deltaDist = 1e-3;
 
 ind = (abs(xGrid) > (Rcyl - deltaDist) ) &...
@@ -257,6 +264,7 @@ indTot = ind | ind1 | ind2 | ind3 | ind4 ;
 indTot(ind5) = 0;
 indTot(ind6) = 0;
 
+% plot mask
 figure
 contourf(xGrid,zGrid,indTot)
 grid on
@@ -266,7 +274,7 @@ xlabel('$y  \left[ \mathrm{m} \right]$','Interpreter','latex','FontSize', 16)
 ylabel('$z  \left[ \mathrm{m} \right]$','Interpreter','latex','FontSize', 16)
 
 
-
+% do not show field in the masked region
 pScattField(indTot) = 0;
 
 figure

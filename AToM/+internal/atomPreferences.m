@@ -22,7 +22,7 @@ general.projectPath = '';
 general.tolerance = 1e-10;
 
 %% Debug
-debug.sendDebugReport = false; % enables/disables sending of crash reports
+debug.sendDebugReport = true; % enables/disables sending of crash reports
 
 %% Workspace
 workspace.nSignificantDigitsView = 10;
@@ -34,7 +34,7 @@ workspaceViewer.columnWidth = [100 100 60 120 50 50 40];
 % Message is a singleton, call "clear classes" to apply changes
 message.saveStackTo = '';
 message.saveLogsTo = '';
-message.reducedErrorStack = true;
+message.reducedErrorStack = false;
 
 %% Geom
 geom.tolerance = 1e-10;

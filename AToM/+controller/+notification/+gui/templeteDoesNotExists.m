@@ -1,5 +1,0 @@
-%% templeteDoesNotExists [ERROR] templete does not exists
-% Templete does not exists.
-%
-% Included in AToM, info@antennatoolbox.com
-% (c) 2017, Viktor Adler, CTU in Prague, viktor.adler@antennatoolbox.com
